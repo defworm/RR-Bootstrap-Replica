@@ -1,10 +1,18 @@
 import './App.css';
+import Container from 'react-bootstrap/Container';
+
+import Button from 'react-bootstrap/Button';
+import Navbar1 from './components/Navbar1';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navbar1 />
+      
     </div>
+
   );
 }
 
